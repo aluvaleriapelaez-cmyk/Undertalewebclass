@@ -1,0 +1,306 @@
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background-image:url("https://external-preview.redd.it/i-made-a-desktop-background-out-of-one-of-the-prettiest-v0-_CcxV8OZYP6t1oQwz5blZTqJfaYi_kkvYVMpWD0yOd0.png?width=640&crop=smart&auto=webp&s=2303c3d94a0351e57feb920f8495cf5f1785b1ac");
+background-size:cover;
+background-repeat:no-repeat;
+background-attachment: fixed;
+color: white;
+}
+
+/* HEADER */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+background:black;
+color:white;
+font-family:'Press Start 2P', cursive;
+}
+
+header img{
+width:60px;
+}
+
+.menu{
+list-style:none;
+display:flex;
+gap:10px;
+margin:0;
+padding:0;
+}
+
+.menu a{
+text-decoration:none;
+color:white;
+font-family:'Press Start 2P', cursive;
+font-size:10px;
+padding:8px;
+transition:0.3s;
+}
+
+.menu a:hover{
+color:#00ffff;
+text-shadow:
+0 0 5px #00ffff,
+0 0 10px #00ffff,
+0 0 20px #00ffff;
+}
+
+/* CONTENIDO */
+
+.contenido{
+background-image:url("fondo.jpg");
+background-size:cover;
+padding:40px;
+}
+
+/* INFO + INTRO */
+
+.info-intro{
+display:flex;
+gap:25px;
+margin-bottom:40px;
+
+}
+
+.info{
+width:30%;
+background:black;
+padding:20px;
+border-radius:10px;
+border:2px solid #00ffff;
+}
+
+.info img{
+width:100%;
+}
+
+.intro{
+width:70%;
+background:black;
+padding:20px;
+border-radius:10px;
+border:2px solid #00ffff;
+}
+
+.boton-juego{
+display:inline-block;
+margin-bottom:15px;
+padding:10px 15px;
+background:black;
+color:#00ffff;
+text-decoration:none;
+border:2px solid #00ffff;
+border-radius:8px;
+font-family:'Press Start 2P', cursive;
+font-size:10px;
+transition:0.3s;
+}
+
+.boton-juego:hover{
+background:#00ffff;
+color:black;
+box-shadow:
+0 0 10px #00ffff,
+0 0 20px #00ffff,
+0 0 40px #00ffff;
+}
+
+
+/* HISTORIA */
+
+.historia{
+background:black;
+padding:20px;
+border-radius:10px;
+margin-bottom:40px;
+border:2px solid #00ffff;
+}
+
+.historia-item{
+display:flex;
+align-items:center;
+margin-bottom:15px;
+
+}
+
+.historia-item img{
+width:120px;
+margin-left:20px;
+}
+
+.texto-historia{
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+
+.titulo-personajes{
+text-align:center;
+font-size:35px;
+margin-bottom:30px;
+color:white;
+font-family:'Press Start 2P', cursive;
+}
+
+
+/* CUADROS */
+
+.cuadros{
+display:flex;
+gap:20px;
+margin-bottom:40px;
+align-items:stretch;
+}
+
+.cuadro{
+background:BLACK;
+padding:15px;
+border-radius:10px;
+text-align:center;
+flex:1;
+display:flex;
+flex-direction:column;
+
+border:2px solid #00ffff;
+}
+
+.cuadro:hover{
+box-shadow:
+0 0 10px #00ffff,
+0 0 20px #00ffff,
+0 0 40px #00ffff,
+0 0 80px #00ffff;
+}
+
+
+.cuadro img{
+width:120px;
+margin:auto;
+margin-bottom:10px;
+}
+
+.tabla-personajes {
+  background: black;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #00ffff;
+  margin-bottom: 40px;
+  overflow-x: auto;
+}
+
+.tabla-personajes table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.tabla-personajes th,
+.tabla-personajes td {
+  padding: 10px;
+  border: 2px solid #00ffff;
+}
+
+.tabla-personajes th {
+  background-color: #000000;
+  color: #00ffff;
+}
+
+.tabla-personajes tr:hover {
+  background-color: #0f2a5c99;
+}
+
+
+
+
+/* CREADOR */
+
+.creador{
+background:black;
+color:white;
+padding:30px;
+border-radius:10px;
+border:2px solid #00ffff;
+}
+  
+.creador-contenido{
+display:flex;
+gap:30px;
+align-items:flex-start;
+}
+
+.texto-creador{
+flex:2;
+}
+
+.video-creador{
+flex:1;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.video-creador iframe{
+width:100%;
+border:2px solid #00ffff;
+border-radius:10px;
+}
+
+.musica{
+width:110px;
+height:50px;
+margin-right:15px;
+}
+
+
+.galeria{
+display:grid;
+grid-template-columns:repeat(3, 1fr);
+gap:20px;
+margin-bottom:40px;
+}
+
+.galeria img{
+width:100%;
+border-radius:10px;
+border:2px solid #00ffff;
+transition:0.3s;
+}
+
+.galeria img:hover{
+transform:scale(1.05);
+box-shadow:
+0 0 10px #00ffff,
+0 0 20px #00ffff,
+0 0 40px #00ffff;
+}
+
+
+.pie{
+background:black;
+color:white;
+text-align:center;
+padding:20px;
+border-top:2px solid #00ffff;
+font-size:14px;
+margin-top:40px;
+}
+
+.imagen-completa {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  display: block;
+}
+
+a:link, a:visited { color: white; text-decoration: none; } 
+
+
+a:hover, a:active { color: #104e8b; text-decoration: underline; } 
+</style>
